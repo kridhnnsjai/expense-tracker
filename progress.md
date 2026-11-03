@@ -109,3 +109,10 @@ Start by explaining how Python can save and load expense data using JSON.
 
 ### Next session
 Improve the application structure and learn Python functions.
+
+## Session 4 - Functions 
+- Created view_expenses(), calculate_total(), and add_expense().
+- Learned function definitions and function calls.
+- Learned parameters and arguments.
+- Understood the difference between print() and return.
+- Practised using len() with a function parameter.
