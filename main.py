@@ -1,4 +1,10 @@
+import json
 expenses = []
+try:
+    with open("expenses.json","r") as file:
+        expenses = json.load(file)
+except (FileNotFoundError,json.JSONDecodeError):
+    expenses = []
 while True: 
     print("======================")
     print("   EXPENSE TRACKER    ")
@@ -19,6 +25,8 @@ while True:
                         "amount": amt
                     }
                     expenses.append(expense)
+                    with open("expenses.json","w") as file:
+                        json.dump(expenses,file,indent=4)
                     print("Expense added successfully")
                     print(f"Total Expenses: {len(expenses)}")
                 else:

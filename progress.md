@@ -90,3 +90,22 @@ Terminal-based Python Expense Tracker.
 ### Next session starting point
 Continue the Expense Tracker project by learning file handling.
 Start by explaining how Python can save and load expense data using JSON.
+
+## Session 3 – JSON File Handling
+
+### What I learned
+- JSON data format.
+- Reading and writing files with open().
+- Read mode ("r") and write mode ("w").
+- json.dump() and json.load().
+- Handling FileNotFoundError.
+- Handling JSONDecodeError.
+
+### What I implemented
+- Saving expenses to expenses.json.
+- Loading expenses when the program starts.
+- Keeping expenses after restarting the application.
+- Handling missing or invalid JSON files.
+
+### Next session
+Improve the application structure and learn Python functions.
