@@ -146,3 +146,37 @@ Improve the application structure and learn Python functions.
 
 ### Next session
 Learn about Python packages and better project organization.
+
+## Session 6 - Python Packages
+
+### What I learned
+- A module is a Python file.
+- A package is a folder that organizes related Python modules.
+- `__init__.py` marks a regular Python package.
+- How to import functions from modules inside a package.
+
+### What I implemented
+- Created an `expenses` package.
+- Created `__init__.py`.
+- Moved `expense_views.py` and `expense_operations.py` into the package.
+- Updated imports in `main.py`.
+- Tested the application after reorganizing the files.
+
+### New concepts
+- Python packages
+- Package import paths
+- Organizing project files
+
+### What I can do independently
+- Create a Python package.
+- Move modules into a package.
+- Import functions from modules inside a package.
+
+### Remaining tasks
+- Review project structure.
+- Learn how to keep project files organized.
+- Continue with the next Python topic.
+
+### Next session starting point
+- Review Python packages and imports.
+- Begin the next stage of Python development.

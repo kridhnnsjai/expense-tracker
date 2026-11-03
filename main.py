@@ -1,5 +1,5 @@
-from expense_views import view_expenses,calculate_total
-from expense_operations import add_expense
+from expenses.expense_views import view_expenses,calculate_total
+from expenses.expense_operations import add_expense
 import json
 expenses = []
 try:
