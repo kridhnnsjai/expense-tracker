@@ -116,3 +116,33 @@ Improve the application structure and learn Python functions.
 - Learned parameters and arguments.
 - Understood the difference between print() and return.
 - Practised using len() with a function parameter.
+
+## Session 5 – Python Modules
+
+### What I learned
+- What Python modules are.
+- How to import functions using `from ... import`.
+- How to pass data between modules using parameters.
+- How to organize code across multiple Python files.
+- How `if __name__ == "__main__":` works.
+
+### What I implemented
+- Created `expense_views.py` for viewing expenses and calculating totals.
+- Created `expense_operations.py` for adding and saving expenses.
+- Updated `main.py` to import and use functions from other modules.
+- Added the main execution condition.
+
+### New concepts
+- Modules
+- Imports
+- `__name__`
+- `__main__`
+
+### Testing
+- Adding expenses: Passed
+- Viewing expenses: Passed
+- Calculating total: Passed
+- JSON persistence: Passed
+
+### Next session
+Learn about Python packages and better project organization.
