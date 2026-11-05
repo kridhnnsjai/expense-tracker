@@ -1,4 +1,4 @@
 expenses.json
-# Python cache files
 __pycache__/
 *.py[cod]
+.venv/

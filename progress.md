@@ -180,3 +180,40 @@ Learn about Python packages and better project organization.
 ### Next session starting point
 - Review Python packages and imports.
 - Begin the next stage of Python development.
+
+## Session 7 - Virtual Environments and pip
+
+### What I learned
+- What virtual environments are and why developers use them.
+- How to create and activate a virtual environment.
+- How to use pip to install Python packages.
+- Difference between built-in modules and external packages.
+- What package dependencies are.
+- How requirements.txt records project dependencies.
+
+### What I implemented
+- Created and activated .venv.
+- Installed requests.
+- Created requirements.txt using pip freeze.
+- Updated .gitignore to exclude .venv.
+
+### New concepts
+- Virtual environments
+- pip
+- External packages
+- Dependencies
+- requirements.txt
+
+### What I can do independently
+- Create and activate a virtual environment.
+- Install and inspect Python packages.
+- Generate requirements.txt.
+- Install dependencies using requirements.txt.
+
+### Remaining tasks
+- Learn how to use external libraries in Python projects.
+- Continue learning APIs and backend development.
+
+### Next session starting point
+- Learn how to use the requests library.
+- Understand HTTP requests and responses.
