@@ -217,3 +217,49 @@ Learn about Python packages and better project organization.
 ### Next session starting point
 - Learn how to use the requests library.
 - Understand HTTP requests and responses.
+
+## Session 8 - Working with APIs
+
+### What I learned
+- What APIs are and how applications communicate.
+- HTTP GET requests.
+- HTTP status codes.
+- Converting JSON responses into Python dictionaries.
+- Accessing API response data.
+- Handling unsuccessful HTTP responses.
+- Handling connection errors using try/except.
+- Using request timeouts.
+
+### What I implemented
+- Created api_practice.py.
+- Sent GET requests using the requests library.
+- Retrieved and displayed Todo information.
+- Built a Todo Viewer using user input.
+- Added HTTP error handling and connection error handling.
+
+### New concepts
+- APIs
+- HTTP
+- GET requests
+- HTTP status codes
+- JSON responses
+- Request exceptions
+- API timeouts
+
+### What I can do independently
+- Send basic GET requests.
+- Read JSON responses.
+- Access response data using dictionary keys.
+- Check HTTP status codes.
+- Handle request-related exceptions.
+- Build dynamic API URLs.
+
+### Remaining tasks
+- Learn POST, PUT and DELETE requests.
+- Learn API input validation.
+- Understand API response structures.
+- Practice working with external APIs.
+
+### Next session starting point
+- Learn how to send data to an API using POST.
+- Understand the difference between GET and POST.
